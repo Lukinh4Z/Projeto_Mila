@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto mila\\assets\\scripts\\scriptableobjects\\soundeffectso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\soundeffectso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SoundEffectSO.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\ScriptableObjects\\SoundEffectSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\SoundEffectSO.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\ScriptableObjects\\SoundEffectSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\SoundEffectSO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:13:26.585Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

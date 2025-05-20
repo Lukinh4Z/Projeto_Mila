@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto mila\\assets\\breakableasteroids\\scripts\\examplefracture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\breakableasteroids\\scripts\\examplefracture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto mila\\assets\\breakableasteroids\\scripts\\fracture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\breakableasteroids\\scripts\\fracture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto mila\\assets\\scripts\\player\\playershooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playershooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\assets\\scripts\\ui\\heatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\heatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\assets\\scripts\\ui\\globalconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\globalconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\assets\\scripts\\ui\\heat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\heat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\assets\\scripts\\damageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\assets\\scripts\\managers\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\assets\\scripts\\player\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\assets\\scripts\\input\\userinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\input\\userinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\assets\\scripts\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\assets\\scripts\\input\\playercontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42E4499-229B-C510-592D-A3D6BDFCEF88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\input\\playercontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Library\\PackageCache\\com.unity.cinemachine\\Runtime\\Behaviours\\CinemachineConfiner3D.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.cinemachine\\Runtime\\Behaviours\\CinemachineConfiner3D.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExampleFracture.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\BreakableAsteroids\\Scripts\\ExampleFracture.cs",
+              "RelativeDocumentMoniker": "Assets\\BreakableAsteroids\\Scripts\\ExampleFracture.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\BreakableAsteroids\\Scripts\\ExampleFracture.cs",
+              "RelativeToolTip": "Assets\\BreakableAsteroids\\Scripts\\ExampleFracture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T14:08:15.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fracture.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\BreakableAsteroids\\Scripts\\Fracture.cs",
+              "RelativeDocumentMoniker": "Assets\\BreakableAsteroids\\Scripts\\Fracture.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\BreakableAsteroids\\Scripts\\Fracture.cs",
+              "RelativeToolTip": "Assets\\BreakableAsteroids\\Scripts\\Fracture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T14:05:59.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GlobalConverters.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\UI\\GlobalConverters.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GlobalConverters.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\UI\\GlobalConverters.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\GlobalConverters.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:00:55.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Heat.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\UI\\Heat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Heat.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\UI\\Heat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Heat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:30:19.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HeatController.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\UI\\HeatController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\HeatController.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\UI\\HeatController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\HeatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:24:17.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SoundManager.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Managers\\SoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SoundManager.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Managers\\SoundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\SoundManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:53:35.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Damageable.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Damageable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Damageable.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Damageable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Damageable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABOwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T15:21:35.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDamageable.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Interfaces\\IDamageable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IDamageable.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Interfaces\\IDamageable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IDamageable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:56:56.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Player\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Bullet.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Player\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:21:38.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CinemachineConfiner3D.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Library\\PackageCache\\com.unity.cinemachine\\Runtime\\Behaviours\\CinemachineConfiner3D.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.cinemachine\\Runtime\\Behaviours\\CinemachineConfiner3D.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Library\\PackageCache\\com.unity.cinemachine\\Runtime\\Behaviours\\CinemachineConfiner3D.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.cinemachine\\Runtime\\Behaviours\\CinemachineConfiner3D.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:17:17.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserInput.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Input\\UserInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Input\\UserInput.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Input\\UserInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Input\\UserInput.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswBMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T00:05:59.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerShooting.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Player\\PlayerShooting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerShooting.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Player\\PlayerShooting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerShooting.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAADwv0AAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:23:33.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwCsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T23:05:47.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerControls.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Input\\PlayerControls.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Input\\PlayerControls.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto Mila\\Assets\\Scripts\\Input\\PlayerControls.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Input\\PlayerControls.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T02:47:20.889Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
