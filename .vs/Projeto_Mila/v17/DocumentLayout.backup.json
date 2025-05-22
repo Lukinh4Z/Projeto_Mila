@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto_mila\\assets\\scripts\\systems\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto_mila\\assets\\scripts\\systems\\player\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\player\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto_mila\\assets\\scripts\\systems\\player\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\player\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\assets\\scripts\\player\\shipitemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\shipitemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\assets\\scripts\\systems\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto_mila\\assets\\scripts\\systems\\inventory\\playeritems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\inventory\\playeritems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto_mila\\assets\\scripts\\player\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto_mila\\assets\\scripts\\player\\playershooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playershooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\assets\\scripts\\managers\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\assets\\scripts\\scriptableobjects\\soundeffectso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\soundeffectso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Player\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Bullet.cs",
-              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Player\\Bullet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T00:34:59.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerShooting.cs",
-              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Player\\PlayerShooting.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerShooting.cs",
-              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Player\\PlayerShooting.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerShooting.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T00:26:07.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerItems.cs",
-              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Inventory\\PlayerItems.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Inventory\\PlayerItems.cs",
-              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Inventory\\PlayerItems.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Systems\\Inventory\\PlayerItems.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T00:21:16.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SoundManager.cs",
-              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Managers\\SoundManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SoundManager.cs",
-              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Managers\\SoundManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\SoundManager.cs",
+              "Title": "Ship.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Player\\Ship.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Player\\Ship.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Player\\Ship.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Systems\\Player\\Ship.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T23:35:43.179Z",
+              "WhenOpened": "2025-05-22T18:17:38.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Character.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Player\\Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Player\\Character.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Player\\Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Systems\\Player\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:50:36.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShipItemSlot.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Player\\ShipItemSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\ShipItemSlot.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Player\\ShipItemSlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\ShipItemSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:39:20.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Item.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Items\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Items\\Item.cs",
               "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Items\\Item.cs",
               "RelativeToolTip": "Assets\\Scripts\\Systems\\Items\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAArwB0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T23:32:20.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SoundEffectSO.cs",
-              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\ScriptableObjects\\SoundEffectSO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\SoundEffectSO.cs",
-              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\ScriptableObjects\\SoundEffectSO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\SoundEffectSO.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T23:31:50.172Z"
+              "WhenOpened": "2025-05-21T23:32:20.379Z"
             }
           ]
         }
