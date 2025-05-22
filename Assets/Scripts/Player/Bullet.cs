@@ -7,7 +7,9 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float speed;
-    public float bulletDMG;
+
+    public float bulletDMG; 
+
     public Boolean isEnemy;
     public float shouldDie = 150f;
 
@@ -19,6 +21,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        Debug.Log(bulletDMG);
     }
 
 
@@ -45,6 +48,11 @@ public class Bullet : MonoBehaviour
         Damageable damageable = collider.gameObject.GetComponent<Damageable>();
 
         dealDamage(damageable);
+    }
+
+    public void SetModifiers(float modifier)
+    {
+        bulletDMG = (1 + (modifier / 100f)) * bulletDMG;
     }
 
     private void dealDamage(Damageable damageable)

@@ -1,11 +1,26 @@
 using ScriptableObjects;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
 {
+    public enum Modifiers
+    {
+        BulletDMG,
+        Cooldown,
+        Heat
+    }
+    [System.Serializable]
+    public class ShootingModifiers
+    {
+        public Modifiers mod;
+        public float value;
+    }
+    public ShootingModifiers[] modifiers;
+
     [SerializeField] List<Transform> shootingPoints;
-    [SerializeField] GameObject bulletPrefab;
+    public GameObject bulletPrefab;
     private PlayerControls playerControls;
     private bool shooting;
     public SoundEffectSO bulletSound;
@@ -17,10 +32,6 @@ public class PlayerShooting : MonoBehaviour
     public float shotHeat = 1.0f;
     public float cooldownFactor = 10.0f;
     public bool isHot = false;
-
-    //public GameObject heatUI;
-    //public float heatScaleX;
-    //public float heatScaleY;
 
     void Start()
     {
@@ -61,11 +72,13 @@ public class PlayerShooting : MonoBehaviour
 
     private void WeaponCooldown()
     {
+        ShootingModifiers cooldownModifier = modifiers.FirstOrDefault(m => m.mod == Modifiers.Cooldown);
+
         if (isHot) { 
-            weaponHeat -= Time.deltaTime * cooldownFactor * 1.5f;
+            weaponHeat -= Time.deltaTime * (cooldownFactor * (1 + (cooldownModifier.value/100f))) * 1.5f;
         } else
         {
-            weaponHeat -= Time.deltaTime * cooldownFactor * 3;
+            weaponHeat -= Time.deltaTime * (cooldownFactor * (1 + (cooldownModifier.value / 100f))) * 3;
         }
 
         if (weaponHeat <= 0.0f)
@@ -79,10 +92,14 @@ public class PlayerShooting : MonoBehaviour
     {
         shootingPoints.ForEach(p =>
         {
-            GameObject bullet = Instantiate(bulletPrefab, p.position, Quaternion.FromToRotation(transform.up, transform.forward));
-            Rigidbody rb = bullet.GetComponent<Rigidbody>();
+            GameObject bulletObject = Instantiate(bulletPrefab, p.position, Quaternion.FromToRotation(transform.up, transform.forward));
+            Rigidbody rb = bulletObject.GetComponent<Rigidbody>();
+            Bullet bullet = bulletObject.GetComponent<Bullet>();
 
-            rb.linearVelocity = bullet.GetComponent<Bullet>().speed * transform.forward;
+            ShootingModifiers bulletDmgModifier = modifiers.FirstOrDefault(m => m.mod == Modifiers.BulletDMG);
+            bullet.SetModifiers(bulletDmgModifier.value);
+
+            rb.linearVelocity = bulletObject.GetComponent<Bullet>().speed * transform.forward;
 
         });
 

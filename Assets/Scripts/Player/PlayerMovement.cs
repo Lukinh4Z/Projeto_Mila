@@ -1,6 +1,7 @@
 using ScriptableObjects;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Animations;
@@ -8,6 +9,17 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public enum MovementModifiers
+    {
+        SPEED
+    }
+
+    [System.Serializable]
+    public class PlayerMovementModifiers
+    {
+        public MovementModifiers modifier;
+        public float value;
+    }
 
     public float health;
     public float speed;
@@ -31,6 +43,8 @@ public class PlayerMovement : MonoBehaviour
 
     public float controllerDeadZone = 0f;
     public float rotateSmoothing = 1f;
+
+    public PlayerMovementModifiers[] modifiers;
 
 
     public SoundEffectSO engineStart;
@@ -64,11 +78,10 @@ public class PlayerMovement : MonoBehaviour
         float moveX = movement.x;
         float moveY = movement.y;
 
-        //if ((rb.position.x > shouldStopX && moveX > 0) || (rb.position.x < shouldStopNegX && moveX < 0)) moveX = 0f;
-        //if ((rb.position.y > shouldStopY && moveY > 0) || (rb.position.y < shouldStopNegY && moveY < 0)) moveY = 0f;
+        PlayerMovementModifiers speedModifier = modifiers.FirstOrDefault(m => m.modifier == MovementModifiers.SPEED);
 
         Vector3 move = new Vector3(moveX, 0, moveY);
-        rb.linearVelocity = move * speed;
+        rb.linearVelocity = move * (speed * (1 + speedModifier.value/100f));
     }
 
     void HandleRotation()
