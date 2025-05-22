@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto_mila\\assets\\scripts\\systems\\combat\\damageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\combat\\damageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto_mila\\assets\\scripts\\systems\\combat\\hull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\combat\\hull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto_mila\\assets\\scripts\\systems\\combat\\shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\combat\\shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto_mila\\assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\assets\\scripts\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,11 +58,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Shield.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Combat\\Shield.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Combat\\Shield.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Combat\\Shield.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Systems\\Combat\\Shield.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:00:48.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Damageable.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Combat\\Damageable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Combat\\Damageable.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Combat\\Damageable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Systems\\Combat\\Damageable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:59:14.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hull.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Combat\\Hull.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Combat\\Hull.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Combat\\Hull.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Systems\\Combat\\Hull.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:58:30.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Enemies\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Enemy.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Enemies\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:47:55.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PlayerItems.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Systems\\Inventory\\PlayerItems.cs",
               "RelativeDocumentMoniker": "Systems\\Inventory\\PlayerItems.cs",
@@ -54,12 +122,11 @@
               "RelativeToolTip": "Systems\\Inventory\\PlayerItems.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T19:44:55.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T19:44:55.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Item.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Systems\\Items\\Item.cs",
               "RelativeDocumentMoniker": "Systems\\Items\\Item.cs",
@@ -67,12 +134,11 @@
               "RelativeToolTip": "Systems\\Items\\Item.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T19:44:33.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T19:44:33.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Asteroid.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Enemies\\Asteroid.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Asteroid.cs",
@@ -84,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "PlayerShooting.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Player\\PlayerShooting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerShooting.cs",
@@ -92,12 +158,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerShooting.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T19:35:59.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T19:35:59.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "playerWeapon.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Player\\playerWeapon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\playerWeapon.cs",
@@ -105,12 +170,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\playerWeapon.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T19:35:22.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T19:35:22.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "EnemyWeapon.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Enemies\\EnemyWeapon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemyWeapon.cs",
@@ -122,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "IDamageable.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Interfaces\\IDamageable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IDamageable.cs",
@@ -130,12 +194,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IDamageable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T18:59:52.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T18:59:52.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ShipItemSlot.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Player\\ShipItemSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\ShipItemSlot.cs",

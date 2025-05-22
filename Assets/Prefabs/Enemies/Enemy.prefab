@@ -266,6 +266,7 @@ GameObject:
   - component: {fileID: 4488826207119229406}
   - component: {fileID: 8717001671528599683}
   - component: {fileID: 885432512506250839}
+  - component: {fileID: 2950185365238796891}
   m_Layer: 8
   m_Name: Enemy
   m_TagString: Enemy
@@ -337,7 +338,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 84
+  m_Constraints: 94
   m_CollisionDetection: 1
 --- !u!114 &885432512506250839
 MonoBehaviour:
@@ -379,6 +380,25 @@ MonoBehaviour:
       statValue: 0
     - statType: 7
       statValue: 0
+--- !u!114 &2950185365238796891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8271287182042885059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e36bbb43fa5643488fecce21f0c3a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Systems.Combat.Damageable
+  health: 0
+  shipHull: 0
+  shipShield: 0
+  ship: {fileID: 885432512506250839}
+  particlesPrefab: {fileID: 2014246222399664814, guid: 90f381e1d6e9e104d86e547b5326f76a, type: 3}
+  hitEffect: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!1 &8333531680353518579
 GameObject:
   m_ObjectHideFlags: 0

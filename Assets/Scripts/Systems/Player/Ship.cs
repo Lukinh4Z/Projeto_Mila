@@ -53,8 +53,10 @@ namespace Systems.Player
             statValues = new List<ShipStatValue>();
         }
 
-        public void Init()
+        public void Init(float hull = 10, float shield = 10)
         {
+            statValues.Add(new ShipStatValue(ShipStatistic.Hull, hull));
+            statValues.Add(new ShipStatValue(ShipStatistic.Shield, shield));
             statValues.Add(new ShipStatValue(ShipStatistic.Evasion, 0f));
             statValues.Add(new ShipStatValue(ShipStatistic.Block, 0f));
             statValues.Add(new ShipStatValue(ShipStatistic.HullRepairRate, 0f));
@@ -115,13 +117,16 @@ namespace Systems.Player
         public ShipAtributeGroup shipAtributes;
         public ShipStatGroup shipStats;
 
-        public void Start()
+        void Awake()
         {
             shipAtributes = new ShipAtributeGroup();
             shipAtributes.Init();
 
+            float shipHull = shipAtributes.atributeValues.Find(a => a.atributeType == ShipAtribute.Hull).atributeValue;
+            float shipShield = shipAtributes.atributeValues.Find(a => a.atributeType == ShipAtribute.Shield).atributeValue;
+
             shipStats = new ShipStatGroup();
-            shipStats.Init();
+            shipStats.Init(shipHull, shipShield);
         }
     }
 }
