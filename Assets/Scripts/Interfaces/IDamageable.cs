@@ -8,8 +8,7 @@ namespace Assets.Scripts.Interfaces
 {
     internal interface IDamageable
     {
-        //float health { get; }
-        void damage(float damage);
-        void checkDeath();
+        void Damage(float damage);
+        void CheckDeath();
     }
 }

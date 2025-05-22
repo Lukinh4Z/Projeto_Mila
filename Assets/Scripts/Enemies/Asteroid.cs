@@ -1,4 +1,3 @@
-using Assets.Scripts.Interfaces;
 using UnityEngine;
 
 public class Asteroid : MonoBehaviour

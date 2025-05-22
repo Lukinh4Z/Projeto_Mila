@@ -63,13 +63,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player\ShipItemSlot.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
-    <Compile Include="Assets\Scripts\Player\Bullet.cs" />
     <Compile Include="Assets\Scripts\Input\UserInput.cs" />
     <Compile Include="Assets\Scripts\Systems\Items\Item.cs" />
     <Compile Include="Assets\Scripts\Managers\WaveSpawner.cs" />
     <Compile Include="Assets\Scripts\Input\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\Systems\Combat\Damageable.cs" />
     <Compile Include="Assets\Scripts\Systems\Inventory\PlayerItems.cs" />
+    <Compile Include="Assets\Scripts\Systems\Combat\Bullet.cs" />
     <Compile Include="Assets\Scripts\Managers\HomeMenuManager.cs" />
     <Compile Include="Assets\Scripts\Managers\WinScreen.cs" />
     <Compile Include="Assets\Scripts\UI\GlobalConverters.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\SoundEffectSO.cs" />
     <Compile Include="Assets\Scripts\Managers\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Systems\Combat\Hull.cs" />
     <Compile Include="Assets\BreakableAsteroids\Scripts\Fracture.cs" />
     <Compile Include="Assets\Scripts\Enemies\Asteroid.cs" />
     <Compile Include="Assets\GalaxyBox2\Scripts\examplescene.cs" />
@@ -85,19 +87,19 @@
     <Compile Include="Assets\Scripts\Managers\SelectButton.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
     <Compile Include="Assets\Scripts\Managers\MenuManager.cs" />
-    <Compile Include="Assets\Scripts\Damageable.cs" />
     <Compile Include="Assets\Scripts\Input\InputManager.cs" />
     <Compile Include="Assets\Scripts\UI\Heat.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyWeapon.cs" />
     <Compile Include="Assets\Scripts\Player\playerWeapon.cs" />
     <Compile Include="Assets\BreakableAsteroids\Scripts\ExampleFracture.cs" />
+    <Compile Include="Assets\Scripts\Systems\Combat\Shield.cs" />
     <Compile Include="Assets\Scripts\Systems\Player\Character.cs" />
     <Compile Include="Assets\Scripts\Systems\Player\Ship.cs" />
     <Compile Include="Assets\GalaxyBox2\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IDamageable.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\ui.uss" />
+    <None Include="Assets\Scripts\UI\ui.uss" />
     <None Include="Assets\Scripts\UI\Main.uxml" />
     <None Include="Assets\GalaxyBox2\instructions.txt" />
     <None Include="Assets\BreakableAsteroids\Readme.txt" />

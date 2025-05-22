@@ -1,38 +1,34 @@
 ﻿using Assets.Scripts.Interfaces;
 using ScriptableObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Systems.Player;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace Systems.Combat
 {
     internal class Damageable : MonoBehaviour, IDamageable
     {
-        [SerializeField] float health = 0.0f;
+        public float health = 0.0f;
         [SerializeField] GameObject particlesPrefab;
         [SerializeField] SoundEffectSO hitEffect;
         [SerializeField] SoundEffectSO deathSound;
 
         void Update() 
         {
-            checkDeath();
+            CheckDeath();
         }
 
-        public void damage(float damage)
+        public void Damage(float damage)
         {
             health -= damage;
-            hitEffect.Play();
+            if(hitEffect) hitEffect.Play();
         }
 
-        public void checkDeath()
+        public void CheckDeath()
         {
             if (health <= 0.0f)
             {
-                Instantiate(particlesPrefab, gameObject.transform.position, gameObject.transform.rotation);
-                deathSound.Play();
+                if(particlesPrefab) Instantiate(particlesPrefab, gameObject.transform.position, gameObject.transform.rotation);
+                if(deathSound) deathSound.Play();
                 Destroy(gameObject);
             }
         }

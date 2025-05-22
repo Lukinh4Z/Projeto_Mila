@@ -5,92 +5,96 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class playerWeapon : MonoBehaviour
+namespace Systems.Combat
 {
-    [SerializeField] List<Transform> shootingPoints;
-    [SerializeField] GameObject bulletPrefab;
-    private PlayerControls playerControls;
-    private bool shooting;
-    public SoundEffectSO bulletSound;
-
-    public float timeBtwShots = 1.0f;
-    public float shotTimeCounter = 0f;
-
-    public float weaponHeat = 0.0f;
-    public float shotHeat = 1.0f;
-    public int cooldownFactor = 10;
-    public bool isHot = false;
-
-    public GameObject heatUI;
-    public float heatScaleX;
-    public float heatScaleY;
-
-    void Start()
+    public class playerWeapon : MonoBehaviour
     {
-        playerControls = new PlayerControls();
-        shotTimeCounter = timeBtwShots;
+        [SerializeField] List<Transform> shootingPoints;
+        [SerializeField] GameObject bulletPrefab;
+        private PlayerControls playerControls;
+        private bool shooting;
+        public SoundEffectSO bulletSound;
 
-        heatScaleX = heatUI.transform.localScale.x;
-        heatScaleY = heatUI.transform.localScale.y;
-    }
+        public float timeBtwShots = 1.0f;
+        public float shotTimeCounter = 0f;
 
+        public float weaponHeat = 0.0f;
+        public float shotHeat = 1.0f;
+        public int cooldownFactor = 10;
+        public bool isHot = false;
 
-    void Update()
-    {
-        if (weaponHeat >= 100.0f)
+        public GameObject heatUI;
+        public float heatScaleX;
+        public float heatScaleY;
+
+        void Start()
         {
-            isHot = true;
+            playerControls = new PlayerControls();
+            shotTimeCounter = timeBtwShots;
+
+            heatScaleX = heatUI.transform.localScale.x;
+            heatScaleY = heatUI.transform.localScale.y;
         }
 
-        shooting = UserInput.instance.playerControls.Controls.Shoot.IsPressed();
 
-        if (!isHot && shooting && shotTimeCounter >= timeBtwShots)
+        void Update()
         {
-            shotTimeCounter = 0;
-            Shoot();
-            weaponHeat += shotHeat;
-        }
+            if (weaponHeat >= 100.0f)
+            {
+                isHot = true;
+            }
 
-        shotTimeCounter += Time.deltaTime;
+            shooting = UserInput.instance.playerControls.Controls.Shoot.IsPressed();
 
-        if (weaponHeat > 0.0f)
-        {
-            WeaponCooldown();
-        }
+            if (!isHot && shooting && shotTimeCounter >= timeBtwShots)
+            {
+                shotTimeCounter = 0;
+                Shoot();
+                weaponHeat += shotHeat;
+            }
 
-        heatRectUI();
+            shotTimeCounter += Time.deltaTime;
+
+            if (weaponHeat > 0.0f)
+            {
+                WeaponCooldown();
+            }
+
+            heatRectUI();
         
-    }
+        }
 
-    private void WeaponCooldown()
-    {
-        weaponHeat -= Time.deltaTime * cooldownFactor * 3;
-
-        if (weaponHeat <= 0.0f)
+        private void WeaponCooldown()
         {
-            weaponHeat = 0.0f;
-            isHot = false;
+            weaponHeat -= Time.deltaTime * cooldownFactor * 3;
+
+            if (weaponHeat <= 0.0f)
+            {
+                weaponHeat = 0.0f;
+                isHot = false;
+            }
+        }
+
+        public void Shoot()
+        {
+            shootingPoints.ForEach(p =>
+            {
+                GameObject bullet = Instantiate(bulletPrefab, p.position, transform.rotation);
+                Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+
+                rb.linearVelocity = bullet.GetComponent<Bullet>().speed * transform.up;
+
+            });
+
+            //SoundManager.PlaySound(SoundType.SHOT);
+            bulletSound.Play();
+        }
+
+        public void heatRectUI()
+        {
+
+            heatUI.transform.localScale = new Vector3(heatScaleX, (heatScaleY * weaponHeat)/100);
         }
     }
 
-    public void Shoot()
-    {
-        shootingPoints.ForEach(p =>
-        {
-            GameObject bullet = Instantiate(bulletPrefab, p.position, transform.rotation);
-            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-
-            rb.linearVelocity = bullet.GetComponent<Bullet>().speed * transform.up;
-
-        });
-
-        //SoundManager.PlaySound(SoundType.SHOT);
-        bulletSound.Play();
-    }
-
-    public void heatRectUI()
-    {
-
-        heatUI.transform.localScale = new Vector3(heatScaleX, (heatScaleY * weaponHeat)/100);
-    }
 }

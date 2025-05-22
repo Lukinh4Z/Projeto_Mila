@@ -5,7 +5,7 @@ using UnityEngine;
 using static PlayerShooting;
 using static PlayerMovement;
 
-namespace System.Inventory
+namespace Systems.Inventory
 {
     public class PlayerItems : MonoBehaviour
     {

@@ -2,37 +2,41 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyWeapon : MonoBehaviour
+namespace Systems.Combat
 {
-    [SerializeField] List<Transform> shootingPoints;
-    [SerializeField] GameObject bulletPrefab;
-    private float timer;
-    public float shootingSpeed = 1f;
-
-
-    // Update is called once per frame
-    void Update()
+    public class EnemyWeapon : MonoBehaviour
     {
-        timer += Time.deltaTime;
-        if(timer > 1f/(shootingSpeed))
-        {
-            timer = 0;
-            Shot();
-        }
-    }
+        [SerializeField] List<Transform> shootingPoints;
+        [SerializeField] GameObject bulletPrefab;
+        private float timer;
+        public float shootingSpeed = 1f;
 
-    private void Shot()
-    {
-        if(bulletPrefab != null)
+
+        // Update is called once per frame
+        void Update()
         {
-            shootingPoints.ForEach(p =>
+            timer += Time.deltaTime;
+            if(timer > 1f/(shootingSpeed))
             {
-                GameObject bullet = Instantiate(bulletPrefab, p.position, p.transform.rotation);
-                Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+                timer = 0;
+                Shot();
+            }
+        }
 
-                rb.linearVelocity = bullet.GetComponent<Bullet>().speed * p.transform.up;
+        private void Shot()
+        {
+            if(bulletPrefab != null)
+            {
+                shootingPoints.ForEach(p =>
+                {
+                    GameObject bullet = Instantiate(bulletPrefab, p.position, p.transform.rotation);
+                    Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
-            });
+                    rb.linearVelocity = bullet.GetComponent<Bullet>().speed * p.transform.up;
+
+                });
+            }
         }
     }
+
 }
