@@ -1,37 +1,12 @@
 using ScriptableObjects;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using TMPro;
+using Systems.Player;
 using UnityEngine;
-using UnityEngine.Animations;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public enum MovementModifiers
-    {
-        SPEED
-    }
-
-    [System.Serializable]
-    public class PlayerMovementModifiers
-    {
-        public MovementModifiers modifier;
-        public float value;
-    }
-
-    public float health;
-    public float speed;
-    //public GameObject gameOver;
-    //public float shouldStopX = 24f;
-    //public float shouldStopNegX = -24f;
-    //public float shouldStopY = 13f;
-    //public float shouldStopNegY = -13f;
-
-    //[SerializeField] TextMeshProUGUI lifeValueText;
-
     private Rigidbody rb;
+    Ship ship;
 
     private Vector3 movement;
     private Vector3 aim;
@@ -44,24 +19,22 @@ public class PlayerMovement : MonoBehaviour
     public float controllerDeadZone = 0f;
     public float rotateSmoothing = 1f;
 
-    public PlayerMovementModifiers[] modifiers;
-
-
     public SoundEffectSO engineStart;
-    //public SoundEffectSO hitSound;
-    //public SoundEffectSO deathSound;
 
-
-    private void Awake()
+    private void Start()
     {
         rb = GetComponent<Rigidbody>();
         engineStart.Play();
+
+        ship = GetComponent<Ship>();
+        if ( ship == null )
+        {
+            throw new System.Exception("Sem nave!");
+        }
     }
 
     void FixedUpdate()
     {
-        //lifeValueText.text = health.ToString();
-
         HandleInput();
         HandleMovement();
         HandleRotation();
@@ -78,10 +51,12 @@ public class PlayerMovement : MonoBehaviour
         float moveX = movement.x;
         float moveY = movement.y;
 
-        PlayerMovementModifiers speedModifier = modifiers.FirstOrDefault(m => m.modifier == MovementModifiers.SPEED);
+        //float speedModifier = ship.GetStat(ShipStatistic.Speed).statValue;
+        float speed = ship.GetStat(ShipStatistic.Speed).statValue;
 
         Vector3 move = new Vector3(moveX, 0, moveY);
-        rb.linearVelocity = move * (speed * (1 + speedModifier.value/100f));
+        //rb.linearVelocity = move * (speed * (1 + speedModifier/100f));
+        rb.linearVelocity = move * speed;
     }
 
     void HandleRotation()
@@ -121,20 +96,5 @@ public class PlayerMovement : MonoBehaviour
     public void OnDeviceChange(PlayerInput playerInput)
     {
         isGamepad = playerInput.currentControlScheme.Equals("Gamepad") ? true : false;
-    }
-
-    public void TakeDamage(float dmg)
-    {
-        health -= dmg;
-        //hitSound.Play();
-
-        if (health <= 0)
-        {
-            //deathSound.Play();
-            Destroy(gameObject);
-            //gameOver.SetActive(true);
-            Time.timeScale = 0;
-
-        }
     }
 }

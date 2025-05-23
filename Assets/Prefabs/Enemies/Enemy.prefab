@@ -265,8 +265,8 @@ GameObject:
   - component: {fileID: 5316376981462464270}
   - component: {fileID: 4488826207119229406}
   - component: {fileID: 8717001671528599683}
-  - component: {fileID: 885432512506250839}
   - component: {fileID: 2950185365238796891}
+  - component: {fileID: 6965116731251352138}
   m_Layer: 8
   m_Name: Enemy
   m_TagString: Enemy
@@ -340,46 +340,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 94
   m_CollisionDetection: 1
---- !u!114 &885432512506250839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8271287182042885059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 788965929869e704ebc44de914b56396, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  shipAtributes:
-    atributeValues:
-    - atributeType: 0
-      atributeValue: 0
-    - atributeType: 1
-      atributeValue: 0
-    - atributeType: 2
-      atributeValue: 0
-    - atributeType: 3
-      atributeValue: 0
-  shipStats:
-    statValues:
-    - statType: 0
-      statValue: 0
-    - statType: 1
-      statValue: 0
-    - statType: 2
-      statValue: 0
-    - statType: 3
-      statValue: 0
-    - statType: 4
-      statValue: 0
-    - statType: 5
-      statValue: 0
-    - statType: 6
-      statValue: 0
-    - statType: 7
-      statValue: 0
 --- !u!114 &2950185365238796891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -395,10 +355,24 @@ MonoBehaviour:
   health: 0
   shipHull: 0
   shipShield: 0
-  ship: {fileID: 885432512506250839}
+  ship: {fileID: 0}
   particlesPrefab: {fileID: 2014246222399664814, guid: 90f381e1d6e9e104d86e547b5326f76a, type: 3}
   hitEffect: {fileID: 0}
   deathSound: {fileID: 0}
+--- !u!114 &6965116731251352138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8271287182042885059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 788965929869e704ebc44de914b56396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Systems.Player.Ship
+  shipStats:
+    statValues: []
 --- !u!1 &8333531680353518579
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,7 +517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1692517446758730, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4166505909902172, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
       propertyPath: m_LocalPosition.x

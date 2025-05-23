@@ -6,9 +6,13 @@ namespace Systems.Player
 {
     public enum ShipStatistic
     {
-        // --- DEFENSIVE STATS
+        // --- MAIN STATS
         Hull,
         Shield,
+        Computer,
+        Speed,
+        
+        // --- DEFENSIVE STATS
         //Hit evasion chance
         Evasion,
 
@@ -27,7 +31,8 @@ namespace Systems.Player
 
         // -- OFFENSIVE STATS (Modify weapons)
         EnergyPower,
-        PhysicalPower
+        PhysicalPower,
+        WeaponCooldown,
     }
 
     [Serializable]
@@ -35,11 +40,31 @@ namespace Systems.Player
     {
         public ShipStatistic statType;
         public float statValue;
+        public float statModBase;
+        public float statModPercent;
 
         public ShipStatValue(ShipStatistic statType, float statValue = 0)
         {
             this.statType = statType;
-            this.statValue = statValue;
+            this.statValue = (statValue + statModBase) * (1 + statModPercent/100f);
+        }
+
+        public void ModifyStatModBase(float statModBase) 
+        {
+            this.statModBase += statModBase;
+            CalculateStat();
+
+        }
+
+        public void ModifyStatModPercent(float statModPercent)
+        {
+            this.statModPercent += statModPercent;
+            CalculateStat();
+        }
+
+        public void CalculateStat()
+        {
+            statValue = (statValue + statModBase) * (1 + statModPercent / 100f);
         }
     }
 
@@ -53,80 +78,57 @@ namespace Systems.Player
             statValues = new List<ShipStatValue>();
         }
 
-        public void Init(float hull = 10, float shield = 10)
+        public void Init(float hull = 100f, float shield = 0.0f)
         {
             statValues.Add(new ShipStatValue(ShipStatistic.Hull, hull));
             statValues.Add(new ShipStatValue(ShipStatistic.Shield, shield));
+            statValues.Add(new ShipStatValue(ShipStatistic.Computer, 100));
+            statValues.Add(new ShipStatValue(ShipStatistic.Speed, 50));
             statValues.Add(new ShipStatValue(ShipStatistic.Evasion, 0f));
             statValues.Add(new ShipStatValue(ShipStatistic.Block, 0f));
             statValues.Add(new ShipStatValue(ShipStatistic.HullRepairRate, 0f));
-            statValues.Add(new ShipStatValue(ShipStatistic.ShieldRechargeRate, 10f));
+            statValues.Add(new ShipStatValue(ShipStatistic.ShieldRechargeRate, 0f));
             statValues.Add(new ShipStatValue(ShipStatistic.EnergyDmgReduction, 0f));
             statValues.Add(new ShipStatValue(ShipStatistic.PhysicalDmgReduction, 0f));
-            statValues.Add(new ShipStatValue(ShipStatistic.EnergyPower, 10f));
-            statValues.Add(new ShipStatValue(ShipStatistic.PhysicalPower, 10f));
-        }
-    }
-
-    public enum ShipAtribute
-    {
-        //Determines maneuverability
-        Speed,
-        //Determines real "life"
-        Hull,
-        //Determines shield
-        Shield,
-        //Determines ship power
-        Computer
-    }
-
-    [Serializable]
-    public class ShipAtributeValue
-    {
-        public ShipAtribute atributeType;
-        public int atributeValue;
-
-        public ShipAtributeValue(ShipAtribute atributeType, int atributeValue = 0)
-        {
-            this.atributeType = atributeType;
-            this.atributeValue = atributeValue;
-        }
-    }
-
-    [Serializable]
-    public class ShipAtributeGroup
-    {
-        public List<ShipAtributeValue> atributeValues;
-
-        public ShipAtributeGroup()
-        {
-            atributeValues = new List<ShipAtributeValue>();
-        }
-
-        public void Init()
-        {
-            atributeValues.Add(new ShipAtributeValue(ShipAtribute.Speed, 10));
-            atributeValues.Add(new ShipAtributeValue(ShipAtribute.Hull, 100));
-            atributeValues.Add(new ShipAtributeValue(ShipAtribute.Shield, 100));
-            atributeValues.Add(new ShipAtributeValue(ShipAtribute.Computer, 100));
+            statValues.Add(new ShipStatValue(ShipStatistic.EnergyPower, 50f));
+            statValues.Add(new ShipStatValue(ShipStatistic.PhysicalPower, 50f));
+            statValues.Add(new ShipStatValue(ShipStatistic.WeaponCooldown, 50f));
         }
     }
 
     public class Ship : MonoBehaviour
     {
-        public ShipAtributeGroup shipAtributes;
-        public ShipStatGroup shipStats;
+        [SerializeField] ShipStatGroup shipStats;
+
+        public Ship()
+        {
+            shipStats = new ShipStatGroup();
+            shipStats.Init();
+        }
 
         void Awake()
         {
-            shipAtributes = new ShipAtributeGroup();
-            shipAtributes.Init();
+            if (shipStats == null || shipStats.statValues.Count == 0)
+            {
+                Debug.Log("create ship" + gameObject.name);
+                shipStats = new ShipStatGroup();
+                shipStats.Init();
+            }
+        }
 
-            float shipHull = shipAtributes.atributeValues.Find(a => a.atributeType == ShipAtribute.Hull).atributeValue;
-            float shipShield = shipAtributes.atributeValues.Find(a => a.atributeType == ShipAtribute.Shield).atributeValue;
+        public ShipStatValue GetStat(ShipStatistic stat)
+        {
+            ShipStatValue shipStat = shipStats.statValues.Find(s => s.statType == stat);
 
-            shipStats = new ShipStatGroup();
-            shipStats.Init(shipHull, shipShield);
+            return shipStat;
+        }
+
+        public ShipStatValue SetStat(ShipStatistic stat, float value)
+        {
+            ShipStatValue shipStat = shipStats.statValues.Find(s => s.statType == stat);
+            shipStat.statValue = value;
+
+            return shipStat;
         }
     }
 }

@@ -1,0 +1,994 @@
+Using pre-set license
+Built from '6000.2/respin/6000.2.0b2-d4c40f50eb81' branch; Version is '6000.2.0b2 (2bdac9ac0d74) revision 2874057'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'pt' Physical Memory: 16229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-05-23T19:47:49Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\6000.2.0b2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/Lucas/Estudos/Dev/Unity/Projeto_Mila
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+61495
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Lucas/Estudos/Dev/Unity/Projeto_Mila
+D:/Lucas/Estudos/Dev/Unity/Projeto_Mila
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4404]  Target information:
+
+Player connection [4404]  * "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 1873681392 [EditorId] 1873681392 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KL4VHS6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4404] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4404] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.0b2 (2bdac9ac0d74)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/6000.2.0b2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Lucas/Estudos/Dev/Unity/Projeto_Mila/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12217 MB
+    Driver:   32.0.12033.1030
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/6000.2.0b2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/6000.2.0b2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/6000.2.0b2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/6000.2.0b2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/6000.2.0b2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/6000.2.0b2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005049 seconds.
+- Loaded All Assemblies, in  0.444 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.363 seconds
+Domain Reload Profiling: 804ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (160ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (363ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.ai.assistant/Plugins/Markdig/Dependencies/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.840 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.805 seconds
+Domain Reload Profiling: 1641ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (586ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (309ms)
+			TypeCache.Refresh (252ms)
+				TypeCache.ScanAssembly (233ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (806ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (549ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 253 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6021 unused Assets / (4.7 MB). Loaded Objects now: 8732.
+Memory consumption went from 249.1 MB to 244.3 MB.
+Total: 10.064500 ms (FindLiveObjects: 0.936300 ms CreateObjectMapping: 1.007100 ms MarkObjects: 5.683500 ms  DeleteObjects: 2.436800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 302272.847536 seconds.
+  path: Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab using Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f9884dc0f6134f684d504bf42b6e38a') in 0.4958556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 711
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.020568 seconds.
+  path: Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab using Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9eebde98688698fcad3ebd20a7603628') in 0.0441871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.372704 seconds.
+  path: Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab using Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b5c71308851290f35bbd529523dca6d') in 0.0415019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.761087 seconds.
+  path: Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab using Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06f6b24ad19a79b17a88529b445182c9') in 0.0368517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.321950 seconds.
+  path: Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab using Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bad1bf3d380130dfcbca0a86e9a3510') in 0.0351667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.ai.assistant/Plugins/Markdig/Dependencies/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.850 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.737 seconds
+Domain Reload Profiling: 1585ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (526ms)
+		LoadAssemblies (382ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (218ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (737ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (561ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6020 unused Assets / (4.7 MB). Loaded Objects now: 8780.
+Memory consumption went from 227.9 MB to 223.2 MB.
+Total: 9.575300 ms (FindLiveObjects: 0.698600 ms CreateObjectMapping: 0.855200 ms MarkObjects: 5.649700 ms  DeleteObjects: 2.370500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.ai.assistant/Plugins/Markdig/Dependencies/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.801 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1515ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (513ms)
+		LoadAssemblies (381ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (202ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (716ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (550ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (315ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6019 unused Assets / (5.0 MB). Loaded Objects now: 8782.
+Memory consumption went from 225.9 MB to 221.0 MB.
+Total: 11.444300 ms (FindLiveObjects: 1.237500 ms CreateObjectMapping: 1.145400 ms MarkObjects: 5.339700 ms  DeleteObjects: 3.720600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 64.452909 seconds.
+  path: Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab using Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c05422a41c72afe49e37ae5d28f11824') in 0.4561782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 709
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.096173 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/Rock1.prefab
+  artifactKey: Guid(c7b2bfaccce302948814ba60d548f499) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/Rock1.prefab using Guid(c7b2bfaccce302948814ba60d548f499) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '315fe969007083546ce12a4800203c2a') in 0.2899612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 713
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/RockFracture11.prefab
+  artifactKey: Guid(4d5bd307bb472d44a922188683f61c0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/RockFracture11.prefab using Guid(4d5bd307bb472d44a922188683f61c0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0d462d0090a7bedfe25dd8dc4085eec') in 0.0495916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 711
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/Rock8.prefab
+  artifactKey: Guid(38b8e849d5e9cc04590c64c5582038d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/Rock8.prefab using Guid(38b8e849d5e9cc04590c64c5582038d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c00556c79d199ad005df5199c46e1e7') in 0.0478412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 713
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock031_2K_Normal.png
+  artifactKey: Guid(365816fd33d5b4449bda66ef16059b44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock031_2K_Normal.png using Guid(365816fd33d5b4449bda66ef16059b44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03b447b4c4bfdab2f450ab61bfcd32ba') in 0.0511714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock033_2K_Roughness.png
+  artifactKey: Guid(886a85a2aca48534c8f3730e74e87005) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock033_2K_Roughness.png using Guid(886a85a2aca48534c8f3730e74e87005) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5de0eb26df1ed976718a013fb032da14') in 0.0105412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/Rock6.prefab
+  artifactKey: Guid(0d293e4ad514b46418bb52440a4e0b6b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/Rock6.prefab using Guid(0d293e4ad514b46418bb52440a4e0b6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c6440a2db8e10287b2635c175a44224') in 0.0458111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 755
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock033_2K_Normal.png
+  artifactKey: Guid(1d66c835723a29a4daf805e80d5a6e48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock033_2K_Normal.png using Guid(1d66c835723a29a4daf805e80d5a6e48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9708170514b92dad2172c602ce5579e4') in 0.0105612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/Rock14.prefab
+  artifactKey: Guid(3f5846681eaa94c4c8571580132fa0e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/Rock14.prefab using Guid(3f5846681eaa94c4c8571580132fa0e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66cb17611a7e33686ce46d5b89ae3fe8') in 0.0363191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 720
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock012_2K_Color.png
+  artifactKey: Guid(52433852087787443be8ef55768c8329) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock012_2K_Color.png using Guid(52433852087787443be8ef55768c8329) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52efab127ca5133542a7a12e9e2b1151') in 0.0097543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/Rock10.prefab
+  artifactKey: Guid(679e9c33f4c7e6343ad4ea5b9eb00019) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/Rock10.prefab using Guid(679e9c33f4c7e6343ad4ea5b9eb00019) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40a307c6811a19ac06f203ad7c9cb49c') in 0.035055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 713
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock014_2K_AmbientOcclusion.png
+  artifactKey: Guid(3787cd02d93abb84ab28130d0725a62d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock014_2K_AmbientOcclusion.png using Guid(3787cd02d93abb84ab28130d0725a62d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '408b01fb2858041101c7e29a474999c9') in 0.0132824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/Rock15.prefab
+  artifactKey: Guid(ad0b3c2f6f789864baadb22bb2a810ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/Rock15.prefab using Guid(ad0b3c2f6f789864baadb22bb2a810ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '395a822854b45c83abd345cd9b857d93') in 0.0356966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 720
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock31.mat
+  artifactKey: Guid(c43b778af69820f429873d92401b529c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock31.mat using Guid(c43b778af69820f429873d92401b529c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a645f5b5c327aea0df440e876816d04') in 0.0305876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock033_2K_Color.png
+  artifactKey: Guid(0535ca90b8d0025458ee62240a62c34f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock033_2K_Color.png using Guid(0535ca90b8d0025458ee62240a62c34f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af7ce571b561065b70a86c01fdebf938') in 0.0104302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock012_2K_Normal.png
+  artifactKey: Guid(3bcd121669b3666438631eef1019ae80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock012_2K_Normal.png using Guid(3bcd121669b3666438631eef1019ae80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '278e410a694e2cc15501a02878ab459f') in 0.0160503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock014_2K_Normal.png
+  artifactKey: Guid(1322a0f9c77faba4ba36cdee9f14a423) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock014_2K_Normal.png using Guid(1322a0f9c77faba4ba36cdee9f14a423) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2515e1c6fc028a52b57f354f23a679c2') in 0.0119025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock16.mat
+  artifactKey: Guid(2a8098785b535ae4a9849e6f195c0bd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock16.mat using Guid(2a8098785b535ae4a9849e6f195c0bd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14f7daa669c1383496d2230e382a8d02') in 0.0254093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock014_2K_Roughness.png
+  artifactKey: Guid(9ebb3e2f3d066b343be47c4d114665ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock014_2K_Roughness.png using Guid(9ebb3e2f3d066b343be47c4d114665ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85b5fd2f5f1a7cb216885d01489013d5') in 0.0124736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/RockFracture1.prefab
+  artifactKey: Guid(5fd4c11f2d5c62942a926bc3106544d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/RockFracture1.prefab using Guid(5fd4c11f2d5c62942a926bc3106544d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcb4842034145d42e37bc2e7e51b6c86') in 0.0313865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 704
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/Rock3.prefab
+  artifactKey: Guid(7d98a3c47fca08e4a8ecbd00b9c32c36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/Rock3.prefab using Guid(7d98a3c47fca08e4a8ecbd00b9c32c36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bb6cabbdf8684e499ca06189d16b3be') in 0.0277565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 713
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock035_2K_Color.png
+  artifactKey: Guid(5d0990a92620cda458cca0aed1946350) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock035_2K_Color.png using Guid(5d0990a92620cda458cca0aed1946350) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50b5ada75ab575b0d246a6e9b5ed9a4e') in 0.0108443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/Rock7.prefab
+  artifactKey: Guid(e34904e72376c924a82cb10040bcf109) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/Rock7.prefab using Guid(e34904e72376c924a82cb10040bcf109) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b2fac6535c146ad622e47cd5a41bb7b') in 0.0305872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 713
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/RockFracture9.prefab
+  artifactKey: Guid(9afec21682378f549a77a7d088a6d7a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/RockFracture9.prefab using Guid(9afec21682378f549a77a7d088a6d7a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55015d379a59406d7146cf75fa84530a') in 0.0289436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 718
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock016_2K_Normal.png
+  artifactKey: Guid(9a3a435755d20324fbd7230447128dfe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock016_2K_Normal.png using Guid(9a3a435755d20324fbd7230447128dfe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4360b6974d450f71fa06d4f7559aa72') in 0.012277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock033_2K_AmbientOcclusion.png
+  artifactKey: Guid(b3afcc5397a7b78498d84d5f459fd038) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock033_2K_AmbientOcclusion.png using Guid(b3afcc5397a7b78498d84d5f459fd038) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27b31f3a33fd1395481e44aef9024f13') in 0.0148367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock035_2K_AmbientOcclusion.png
+  artifactKey: Guid(9cf71327573733240a165ab6e18dbca3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock035_2K_AmbientOcclusion.png using Guid(9cf71327573733240a165ab6e18dbca3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f6a3fb6f70dd8bdc115257a703b6552') in 0.0140567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/Rock2.prefab
+  artifactKey: Guid(77b3cd8b9128ca9469d873fe4622b1f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/Rock2.prefab using Guid(77b3cd8b9128ca9469d873fe4622b1f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83619f37b98e65dd548782c98d8db351') in 0.0389524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 727
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock012.mat
+  artifactKey: Guid(ead5a0397b4bd2a4f9f14ef6684ef94a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock012.mat using Guid(ead5a0397b4bd2a4f9f14ef6684ef94a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e35a720736abc32cc7f3b81db8b3ef0') in 0.0266182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock014_2K_Displacement.png
+  artifactKey: Guid(5cb4980a55739234fa4ef43044f21bdd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock014_2K_Displacement.png using Guid(5cb4980a55739234fa4ef43044f21bdd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c774c8b9790deaa51e1bc8f1fe90bec5') in 0.0107588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/RockFracture13.prefab
+  artifactKey: Guid(a653ffd0225803340b0b9f3b68187748) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/RockFracture13.prefab using Guid(a653ffd0225803340b0b9f3b68187748) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89c5bf6007a1b856b2ec192907598188') in 0.0327251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 732
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock035_2K_Roughness.png
+  artifactKey: Guid(1a4c062e40bf9fc4a802aec008b78c59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock035_2K_Roughness.png using Guid(1a4c062e40bf9fc4a802aec008b78c59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82022780af48ed5c85778eb21fe88f03') in 0.0124383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock035_2K_Displacement.png
+  artifactKey: Guid(a16057c7be0197a4f8cc67a2356346c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock035_2K_Displacement.png using Guid(a16057c7be0197a4f8cc67a2356346c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '161c9d854f0323c63321f36ec5932eab') in 0.0118906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock016_2K_Color.png
+  artifactKey: Guid(a3d3166cc088e054e846f65ec2c50133) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock016_2K_Color.png using Guid(a3d3166cc088e054e846f65ec2c50133) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e98d3662c8500781830de70c291e215') in 0.0123294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/RockFracture14.prefab
+  artifactKey: Guid(5cf5d633fb5e150448c12555350510f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/RockFracture14.prefab using Guid(5cf5d633fb5e150448c12555350510f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '696d63d196f11bf48801389f9075f776') in 0.0260573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 711
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock035_2K_Normal.png
+  artifactKey: Guid(c53cce592e4249f4eaa4eb0fabee997e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock035_2K_Normal.png using Guid(c53cce592e4249f4eaa4eb0fabee997e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73cd8fa3e865cca1f3849376f1284e5b') in 0.0126205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock031_2K_Displacement.png
+  artifactKey: Guid(15b9d54cf3f50454aa313468668bc54a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock031_2K_Displacement.png using Guid(15b9d54cf3f50454aa313468668bc54a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c025f0f4044f9e52c16507044f020f3') in 0.0096299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/Rock4.prefab
+  artifactKey: Guid(1dd1298d7666a7b4cbfc6ff9eabfa34b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/Rock4.prefab using Guid(1dd1298d7666a7b4cbfc6ff9eabfa34b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1c1f17137808e4e115208692c8d7049') in 0.0267373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 727
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock031_2K_AmbientOcclusion.png
+  artifactKey: Guid(16662c90f809cea40b559f121b47990b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock031_2K_AmbientOcclusion.png using Guid(16662c90f809cea40b559f121b47990b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c82b4d5d6b28bd7617cd93c276b8b339') in 0.0115927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock012_2K_Displacement.png
+  artifactKey: Guid(6de76a816749ded4fba3e3ec43be3658) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock012_2K_Displacement.png using Guid(6de76a816749ded4fba3e3ec43be3658) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44b179b44e7ba62794c962aabe5c549e') in 0.0093512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/Rock12.prefab
+  artifactKey: Guid(58c0d2e50cacf86408977fa0febf3013) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/Rock12.prefab using Guid(58c0d2e50cacf86408977fa0febf3013) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5909d9b65239964c183ecbebbaec5eb') in 0.0332074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 727
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Asteroids/Textures
+  artifactKey: Guid(7cbc389fd0b72f7428a192481087f496) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures using Guid(7cbc389fd0b72f7428a192481087f496) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '061f31ada009034b06b33a109feb7112') in 0.0034816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock033_2K_Displacement.png
+  artifactKey: Guid(dd75ec844c8525746889020b47fb2d64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock033_2K_Displacement.png using Guid(dd75ec844c8525746889020b47fb2d64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab9b56c4fc36ed9a822fb5a8864a4ad6') in 0.0099804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock35.mat
+  artifactKey: Guid(60d6f8b69559f1d46ac9e1457b6f440f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock35.mat using Guid(60d6f8b69559f1d46ac9e1457b6f440f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '337e86b67484ca47931ebc3f29bde0e8') in 0.025208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/VoidSkybox.mat
+  artifactKey: Guid(35746ef1b1773674a8368aaaf3897a29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/VoidSkybox.mat using Guid(35746ef1b1773674a8368aaaf3897a29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65d832fd9c858ff701b14d85f5b09bf6') in 0.0245911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/RockFracture8.prefab
+  artifactKey: Guid(70a2f5401491f4745b0c693f5dfb7566) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Asteroids/RockFracture8.prefab using Guid(70a2f5401491f4745b0c693f5dfb7566) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1ec41b0030537782b2d982645733dee') in 0.0222386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 704
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock031_2K_Color.png
+  artifactKey: Guid(3768ec7cd0656b14bb5d14582ff072a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock031_2K_Color.png using Guid(3768ec7cd0656b14bb5d14582ff072a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '785cb8259bcb19efd0ad4d4f42149eef') in 0.0130806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock031_2K_Roughness.png
+  artifactKey: Guid(9068c2f226726a7478f9fa093dfd711c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock031_2K_Roughness.png using Guid(9068c2f226726a7478f9fa093dfd711c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '884a4b8936db8ea8debdc5619f2fb89a') in 0.0092466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.021522 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/Rock3.prefab
+  artifactKey: Guid(7d98a3c47fca08e4a8ecbd00b9c32c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Asteroids/Rock3.prefab using Guid(7d98a3c47fca08e4a8ecbd00b9c32c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '580109cf5bbb4445fd7be47f6b40e373') in 0.0545533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 722
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Asteroids/Asteroids/zasteroids.dae
+  artifactKey: Guid(820c4cb892b36364c9cb5bb75024ff2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Asteroids/zasteroids.dae using Guid(820c4cb892b36364c9cb5bb75024ff2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c046d0d31b17b6bc5e3e13b5f579b6a3') in 11.3285997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7709
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.987797 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock012_2K_AmbientOcclusion.png
+  artifactKey: Guid(1bd374b94ad90f74c829b42f8f973660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock012_2K_AmbientOcclusion.png using Guid(1bd374b94ad90f74c829b42f8f973660) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cb40c3c42d5ba2ee1e6b4d116ca0b7b') in 0.0182031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock016_2K_Color.png
+  artifactKey: Guid(a3d3166cc088e054e846f65ec2c50133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock016_2K_Color.png using Guid(a3d3166cc088e054e846f65ec2c50133) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91df42a5783d3369d32569f97099f906') in 0.0081307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock012_2K_Color.png
+  artifactKey: Guid(52433852087787443be8ef55768c8329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock012_2K_Color.png using Guid(52433852087787443be8ef55768c8329) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37efb974fe3c1408a2a2c541e102115f') in 0.0079527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock33.mat
+  artifactKey: Guid(08894e60045fa93439d933b58c551c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock33.mat using Guid(08894e60045fa93439d933b58c551c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25bec15fefa337fe7e74a0626ffbac8e') in 0.0162434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock16.mat
+  artifactKey: Guid(2a8098785b535ae4a9849e6f195c0bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock16.mat using Guid(2a8098785b535ae4a9849e6f195c0bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5756e5396a0209ac8fd7a2ade20c41f') in 0.0139577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock033_2K_Color.png
+  artifactKey: Guid(0535ca90b8d0025458ee62240a62c34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock033_2K_Color.png using Guid(0535ca90b8d0025458ee62240a62c34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00c1a047f0523b74ea94835d9fe304b8') in 0.009852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock016_2K_Normal.png
+  artifactKey: Guid(9a3a435755d20324fbd7230447128dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock016_2K_Normal.png using Guid(9a3a435755d20324fbd7230447128dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb3231bab83481a97aa85160f3986bd7') in 0.0150053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/The Void 8k.hdr
+  artifactKey: Guid(de9e6d5f9c8c0394191947a0e1fe6bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Textures/The Void 8k.hdr using Guid(de9e6d5f9c8c0394191947a0e1fe6bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bcba84e4fef4071529aeb7b2453c95d') in 0.0343096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock031_2K_Roughness.png
+  artifactKey: Guid(9068c2f226726a7478f9fa093dfd711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock031_2K_Roughness.png using Guid(9068c2f226726a7478f9fa093dfd711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3fd77fa8cc74c94fddd2ad1724ed655') in 0.0088714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock014_2K_Displacement.png
+  artifactKey: Guid(5cb4980a55739234fa4ef43044f21bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock014_2K_Displacement.png using Guid(5cb4980a55739234fa4ef43044f21bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '353b883b6a44a46ca0c7e1bdb4f0a350') in 0.0086234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock35.mat
+  artifactKey: Guid(60d6f8b69559f1d46ac9e1457b6f440f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock35.mat using Guid(60d6f8b69559f1d46ac9e1457b6f440f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be5f78e63e5c86fcf8b9c5012e5ea64c') in 0.0153811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock035_2K_AmbientOcclusion.png
+  artifactKey: Guid(9cf71327573733240a165ab6e18dbca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock035_2K_AmbientOcclusion.png using Guid(9cf71327573733240a165ab6e18dbca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e2d46ab086782e56b3d57b06ad92ed0') in 0.0086776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Asteroids/Textures/Rock016_2K_Roughness.png
+  artifactKey: Guid(f5406e4ff703b1249a2d02854dd88160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/Textures/Rock016_2K_Roughness.png using Guid(f5406e4ff703b1249a2d02854dd88160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c08dd33e1fd0ccd1d89b9162758ff1c') in 0.0079241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.794352 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture13.prefab
+  artifactKey: Guid(a653ffd0225803340b0b9f3b68187748) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/RockFracture13.prefab using Guid(a653ffd0225803340b0b9f3b68187748) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42b3faa33ca3f3cf378a60752b01ae1d') in 0.0258694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 732
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Asteroids/Rock1.prefab
+  artifactKey: Guid(c7b2bfaccce302948814ba60d548f499) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Rock1.prefab using Guid(c7b2bfaccce302948814ba60d548f499) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30a82c060625780ed56191e3ed88387c') in 0.0260183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 713
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture11.prefab
+  artifactKey: Guid(4d5bd307bb472d44a922188683f61c0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/RockFracture11.prefab using Guid(4d5bd307bb472d44a922188683f61c0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '241b0dff6cf6a452735764cf41f41c13') in 0.0250675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 711
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(70087c3ad6b91fa4ba1b8d4c6b8bc4d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(70087c3ad6b91fa4ba1b8d4c6b8bc4d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad7d7451b53f84597daa93425a46d1eb') in 0.026277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 704
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture15.prefab
+  artifactKey: Guid(92fa0be77a7a02e4a9706298982a8bf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/RockFracture15.prefab using Guid(92fa0be77a7a02e4a9706298982a8bf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b17c8f6b13a44ac71c559e8fbc3be36c') in 0.0245882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 711
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture5.prefab
+  artifactKey: Guid(5df6273a994f09443824cb7a57b07c34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/RockFracture5.prefab using Guid(5df6273a994f09443824cb7a57b07c34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97c22983de9711dc04287e77977eb3d7') in 0.0237446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 718
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Asteroids/Rock15.prefab
+  artifactKey: Guid(ad0b3c2f6f789864baadb22bb2a810ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Rock15.prefab using Guid(ad0b3c2f6f789864baadb22bb2a810ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e63bf453d4ac1abba17e7fe74a01acd') in 0.0276774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 720
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Asteroids/Rock3.prefab
+  artifactKey: Guid(7d98a3c47fca08e4a8ecbd00b9c32c36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Rock3.prefab using Guid(7d98a3c47fca08e4a8ecbd00b9c32c36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a474f2bdae25b99fa79820d93c0f9df3') in 0.0287103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 713
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture9.prefab
+  artifactKey: Guid(9afec21682378f549a77a7d088a6d7a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/RockFracture9.prefab using Guid(9afec21682378f549a77a7d088a6d7a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2f2e8ce02ddaae9d256e10011a35a2f') in 0.0261009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 718
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture14.prefab
+  artifactKey: Guid(5cf5d633fb5e150448c12555350510f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/RockFracture14.prefab using Guid(5cf5d633fb5e150448c12555350510f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55264d1cac8fbff5783fc82594bcdee1') in 0.0233095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 711
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture6.prefab
+  artifactKey: Guid(57cb99e59366fca4e89da7a1a7f09506) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/RockFracture6.prefab using Guid(57cb99e59366fca4e89da7a1a7f09506) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d699e09c3b45d8dfd4d6ed9a428070a') in 0.0239855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 746
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Asteroids/Rock12.prefab
+  artifactKey: Guid(58c0d2e50cacf86408977fa0febf3013) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Rock12.prefab using Guid(58c0d2e50cacf86408977fa0febf3013) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54b2b8f4544ffe5b35157bae71e86b33') in 0.0300586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 727
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture2.prefab
+  artifactKey: Guid(926aa3293f0de024d8fd9ddd5a450273) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/RockFracture2.prefab using Guid(926aa3293f0de024d8fd9ddd5a450273) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46322df5aa6fb176ac3b60f759641fa6') in 0.027729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 718
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Asteroids/Rock5.prefab
+  artifactKey: Guid(af82aadb328276c4d9587ea9566860bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Asteroids/Rock5.prefab using Guid(af82aadb328276c4d9587ea9566860bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '152176d7cdd8e75616c11012012835e2') in 0.0343065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 727
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

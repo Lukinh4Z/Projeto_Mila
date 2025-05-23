@@ -267,10 +267,9 @@ GameObject:
   - component: {fileID: 8717001671528599683}
   - component: {fileID: 848401459769327798}
   - component: {fileID: 4910642432148745609}
-  - component: {fileID: 96336347288362249}
   - component: {fileID: 5448262112949936793}
-  - component: {fileID: 4537243749680609636}
-  - component: {fileID: 885432512506250839}
+  - component: {fileID: 6258412792293247251}
+  - component: {fileID: 477815292846643555}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -356,14 +355,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17cdb8489e14bcc47a6b2189705a0a8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  speed: 50
   cam: {fileID: 0}
   controllerDeadZone: 0.35
   rotateSmoothing: 1000
-  modifiers:
-  - modifier: 0
-    value: 0
   engineStart: {fileID: 11400000, guid: 6823ae6dd6cd0de40b456b2ef7f709ba, type: 2}
 --- !u!114 &4910642432148745609
 MonoBehaviour:
@@ -377,13 +371,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481a4126fd862e649bf03e8c75488ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modifiers:
-  - mod: 0
-    value: 0
-  - mod: 1
-    value: 0
-  - mod: 2
-    value: 0
   shootingPoints:
   - {fileID: 7816565288987087094}
   - {fileID: 590422031642674853}
@@ -395,23 +382,6 @@ MonoBehaviour:
   shotHeat: 15
   cooldownFactor: 10
   isHot: 0
---- !u!114 &96336347288362249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8271287182042885059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 259a153ff93aeb24bab01a1992b66a34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Items:
-  - {fileID: 11400000, guid: 348193bd2afc21c46a23fcd374c4853e, type: 2}
-  - {fileID: 11400000, guid: 82c8984d4d19dc84ab97fa64ac6d0c26, type: 2}
-  shooting: {fileID: 4910642432148745609}
-  playerMovement: {fileID: 848401459769327798}
 --- !u!114 &5448262112949936793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,7 +394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2321e5609b5bc80479cb88602c8de561, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
---- !u!114 &4537243749680609636
+--- !u!114 &6258412792293247251
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -433,20 +403,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8271287182042885059}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c7e35ee0b65a7040b25cc11fad8ca2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 30d8217b78d9fa243be5d381c4fb2f37, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
-  characterAtributes:
-    atributeValues:
-    - atributeType: 0
-      atributeValue: 0
-    - atributeType: 1
-      atributeValue: 0
-    - atributeType: 3
-      atributeValue: 0
-    - atributeType: 2
-      atributeValue: 0
---- !u!114 &885432512506250839
+  m_EditorClassIdentifier: Assembly-CSharp::Systems.Inventory.Inventory
+  shipItems: []
+  charItems: []
+  ship: {fileID: 477815292846643555}
+  character: {fileID: 0}
+--- !u!114 &477815292846643555
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -457,35 +421,61 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 788965929869e704ebc44de914b56396, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
-  shipAtributes:
-    atributeValues:
-    - atributeType: 0
-      atributeValue: 0
-    - atributeType: 1
-      atributeValue: 0
-    - atributeType: 2
-      atributeValue: 0
-    - atributeType: 3
-      atributeValue: 0
+  m_EditorClassIdentifier: Assembly-CSharp::Systems.Player.Ship
   shipStats:
     statValues:
     - statType: 0
-      statValue: 0
+      statValue: 100
+      statModBase: 0
+      statModPercent: 0
     - statType: 1
-      statValue: 0
+      statValue: 100
+      statModBase: 0
+      statModPercent: 0
     - statType: 2
-      statValue: 0
+      statValue: 100
+      statModBase: 0
+      statModPercent: 0
     - statType: 3
-      statValue: 0
+      statValue: 50
+      statModBase: 0
+      statModPercent: 0
     - statType: 4
       statValue: 0
+      statModBase: 0
+      statModPercent: 0
     - statType: 5
       statValue: 0
+      statModBase: 0
+      statModPercent: 0
     - statType: 6
       statValue: 0
+      statModBase: 0
+      statModPercent: 0
     - statType: 7
+      statValue: 10
+      statModBase: 0
+      statModPercent: 0
+    - statType: 8
       statValue: 0
+      statModBase: 0
+      statModPercent: 0
+    - statType: 9
+      statValue: 0
+      statModBase: 0
+      statModPercent: 0
+    - statType: 10
+      statValue: 0
+      statModBase: 0
+      statModPercent: 0
+    - statType: 11
+      statValue: 0
+      statModBase: 0
+      statModPercent: 0
+    - statType: 12
+      statValue: 10
+      statModBase: 0
+      statModPercent: 0
 --- !u!1 &8333531680353518579
 GameObject:
   m_ObjectHideFlags: 0

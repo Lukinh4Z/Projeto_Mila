@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Systems.Combat
 {
-    internal class Shield : Damageable
+    internal class Shield : DamageableMisc
     {
         //public Ship ship;
         //public float rechargeRate;

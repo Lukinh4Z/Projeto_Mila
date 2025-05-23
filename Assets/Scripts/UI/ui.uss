@@ -6,7 +6,6 @@ VisualElement > #Heat {
 VisualElement > #Heat > #unity-progress-bar > .unity-progress-bar__background > .unity-progress-bar__progress {
     -unity-background-scale-mode: stretch-to-fill;
     background-color: rgb(255, 185, 0);
-    background-image: url("project://database/Assets/BreakableAsteroids/Textures/Rock031_2K_Normal.png?fileID=2800000&guid=16d7bc718d299224f81fbac8aeeca7ed&type=3#Rock031_2K_Normal");
     width: auto;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;

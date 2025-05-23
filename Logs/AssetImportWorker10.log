@@ -1,0 +1,952 @@
+Using pre-set license
+Built from '6000.2/respin/6000.2.0b2-d4c40f50eb81' branch; Version is '6000.2.0b2 (2bdac9ac0d74) revision 2874057'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'pt' Physical Memory: 16229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-05-23T20:13:24Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\6000.2.0b2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+D:/Lucas/Estudos/Dev/Unity/Projeto_Mila
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+61495
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Lucas/Estudos/Dev/Unity/Projeto_Mila
+D:/Lucas/Estudos/Dev/Unity/Projeto_Mila
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17880]  Target information:
+
+Player connection [17880]  * "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 84056978 [EditorId] 84056978 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KL4VHS6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17880] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17880] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.0b2 (2bdac9ac0d74)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/6000.2.0b2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Lucas/Estudos/Dev/Unity/Projeto_Mila/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12217 MB
+    Driver:   32.0.12033.1030
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/6000.2.0b2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/6000.2.0b2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/6000.2.0b2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/6000.2.0b2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/6000.2.0b2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/6000.2.0b2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.003409 seconds.
+- Loaded All Assemblies, in  0.429 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.367 seconds
+Domain Reload Profiling: 792ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (137ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (161ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (367ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (321ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.ai.assistant/Plugins/Markdig/Dependencies/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.879 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.764 seconds
+Domain Reload Profiling: 1639ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (614ms)
+		LoadAssemblies (400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (309ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (234ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (765ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (545ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 253 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6020 unused Assets / (5.3 MB). Loaded Objects now: 8731.
+Memory consumption went from 250.8 MB to 245.5 MB.
+Total: 9.636900 ms (FindLiveObjects: 0.699900 ms CreateObjectMapping: 0.973500 ms MarkObjects: 5.623800 ms  DeleteObjects: 2.339300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 303672.542312 seconds.
+  path: Assets/Scripts/UI/ui.uss
+  artifactKey: Guid(0589ac8b3235900478416166235e2413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/ui.uss using Guid(0589ac8b3235900478416166235e2413) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b70c0972198bb6070d235a16ab401ed4') in 0.0370708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.198698 seconds.
+  path: Assets/Objects/Asteroids
+  artifactKey: Guid(9cc4accc335237f458dd378342093b44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids using Guid(9cc4accc335237f458dd378342093b44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1da6e76c4459e569f155b58300b72f05') in 0.1547665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock012_2K_Displacement.png
+  artifactKey: Guid(f2c28c4b753efd24e87098e8aee49129) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock012_2K_Displacement.png using Guid(f2c28c4b753efd24e87098e8aee49129) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f51edc4719696dd72950f70c4f202e03') in 0.0879653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Objects/Asteroids/Rock1.prefab
+  artifactKey: Guid(c7b2bfaccce302948814ba60d548f499) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Rock1.prefab using Guid(c7b2bfaccce302948814ba60d548f499) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d1001d7ef6a2a42ea50a10ea4c0dda2') in 0.0825862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 713
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Objects/Asteroids/RockFracture11.prefab
+  artifactKey: Guid(4d5bd307bb472d44a922188683f61c0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/RockFracture11.prefab using Guid(4d5bd307bb472d44a922188683f61c0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9afbea33eb248bdd34e763a0896eecb7') in 0.0258639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 711
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Objects/Asteroids/Rock5.prefab
+  artifactKey: Guid(af82aadb328276c4d9587ea9566860bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Rock5.prefab using Guid(af82aadb328276c4d9587ea9566860bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab02c1738fa721c0756e2d5035647559') in 0.0308121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 727
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Objects/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(70087c3ad6b91fa4ba1b8d4c6b8bc4d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/RockFracture3.prefab using Guid(70087c3ad6b91fa4ba1b8d4c6b8bc4d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aaae6bb8558c63227f77f3b25cb3e252') in 0.0219678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 704
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Objects/Asteroids/RockFracture4.prefab
+  artifactKey: Guid(d9ba52eb31bc7624bb1ea69be4129e55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/RockFracture4.prefab using Guid(d9ba52eb31bc7624bb1ea69be4129e55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '726e791bc913e1fba550551e27a3979f') in 0.0203967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 718
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Objects/Asteroids/RockFracture15.prefab
+  artifactKey: Guid(92fa0be77a7a02e4a9706298982a8bf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/RockFracture15.prefab using Guid(92fa0be77a7a02e4a9706298982a8bf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71c0eed126c407690969812ed8a4e41e') in 0.0234114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 711
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Objects/Asteroids/Rock14.prefab
+  artifactKey: Guid(3f5846681eaa94c4c8571580132fa0e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Rock14.prefab using Guid(3f5846681eaa94c4c8571580132fa0e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a115106f924a4f9198eedc69994df34') in 0.0258602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 720
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock033_2K_AmbientOcclusion.png
+  artifactKey: Guid(9d9b8e10bd38dd74c94cd1f3f7820ebe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock033_2K_AmbientOcclusion.png using Guid(9d9b8e10bd38dd74c94cd1f3f7820ebe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dda1b4f28fac8d1816193f1e0398975') in 0.0113673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock033_2K_Roughness.png
+  artifactKey: Guid(8746e6f41a3fd284abc47211a7972ce8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock033_2K_Roughness.png using Guid(8746e6f41a3fd284abc47211a7972ce8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f48bdf9ed0d7409ec6435f746e3009ef') in 0.0100729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Objects/Asteroids/Rock15.prefab
+  artifactKey: Guid(ad0b3c2f6f789864baadb22bb2a810ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Rock15.prefab using Guid(ad0b3c2f6f789864baadb22bb2a810ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '036231ce09daf41f3db93a477419f2c4') in 0.0304571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 720
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Objects/Asteroids/Rock9.prefab
+  artifactKey: Guid(be961aef9f7b86a44a3dca40c4bd1be1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Rock9.prefab using Guid(be961aef9f7b86a44a3dca40c4bd1be1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1940d3badd7dc4908558803094899388') in 0.0318956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 727
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Objects/Asteroids/Textures/The Void 8k.hdr
+  artifactKey: Guid(fe3837d93a282d140a2c68ee65a89c00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/The Void 8k.hdr using Guid(fe3837d93a282d140a2c68ee65a89c00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fd12c49ea635ad6181c6e1c87326336') in 0.0347379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Objects/Asteroids/RockFracture1.prefab
+  artifactKey: Guid(5fd4c11f2d5c62942a926bc3106544d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/RockFracture1.prefab using Guid(5fd4c11f2d5c62942a926bc3106544d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f9171aaf3091bc366ab811e9205779c') in 0.0288961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 704
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Objects/Asteroids/Rock3.prefab
+  artifactKey: Guid(7d98a3c47fca08e4a8ecbd00b9c32c36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Rock3.prefab using Guid(7d98a3c47fca08e4a8ecbd00b9c32c36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecdc2c01d3f060bb41463a3b287f6455') in 0.0307926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 713
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Objects/Asteroids/Rock7.prefab
+  artifactKey: Guid(e34904e72376c924a82cb10040bcf109) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Rock7.prefab using Guid(e34904e72376c924a82cb10040bcf109) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '945bb8f0fa5ee9a73bf25863ba2e79af') in 0.0274036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 713
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Objects/Asteroids/RockFracture9.prefab
+  artifactKey: Guid(9afec21682378f549a77a7d088a6d7a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/RockFracture9.prefab using Guid(9afec21682378f549a77a7d088a6d7a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1aaec3b37a7b2559ebd21a922bce0ffd') in 0.0207127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 718
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock016_2K_Displacement.png
+  artifactKey: Guid(940acacf72300714fb089c5c6576b230) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock016_2K_Displacement.png using Guid(940acacf72300714fb089c5c6576b230) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4552c9664ea9b8e8a96027e73d200f42') in 0.0111172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Objects/Asteroids/Rock2.prefab
+  artifactKey: Guid(77b3cd8b9128ca9469d873fe4622b1f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Rock2.prefab using Guid(77b3cd8b9128ca9469d873fe4622b1f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f3e7370e230478b5d7081b943ec1578') in 0.0263728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 727
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock012_2K_AmbientOcclusion.png
+  artifactKey: Guid(174d347ed66a2174ead88e40da80a545) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock012_2K_AmbientOcclusion.png using Guid(174d347ed66a2174ead88e40da80a545) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6fa06afbc07b694b6bcea81ff162d65a') in 0.0098135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock035_2K_Color.png
+  artifactKey: Guid(dbd08748d8b36c64092ab3887ad4ae09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock035_2K_Color.png using Guid(dbd08748d8b36c64092ab3887ad4ae09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1aea504ea0d30ea77ad4395e4414e5e') in 0.0150867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Objects/Asteroids/RockFracture13.prefab
+  artifactKey: Guid(a653ffd0225803340b0b9f3b68187748) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/RockFracture13.prefab using Guid(a653ffd0225803340b0b9f3b68187748) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb9bb57946a5961173cec5ca7fba80d8') in 0.0258161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 732
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock012_2K_Color.png
+  artifactKey: Guid(97af8ac2e59e61e4ca5a821005374c9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock012_2K_Color.png using Guid(97af8ac2e59e61e4ca5a821005374c9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35d82de7a56830e6da97030f2d041c91') in 0.0129712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock035_2K_Normal.png
+  artifactKey: Guid(f1a35e1279b34db45ba32be74c01edf3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock035_2K_Normal.png using Guid(f1a35e1279b34db45ba32be74c01edf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fb3c9072502d2ba9914c39857e58819') in 0.0121128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Objects/Asteroids/RockFracture14.prefab
+  artifactKey: Guid(5cf5d633fb5e150448c12555350510f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/RockFracture14.prefab using Guid(5cf5d633fb5e150448c12555350510f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85f5ec0c5b9e1c402e7c1c27947e10d8') in 0.0263864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 711
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock016_2K_Normal.png
+  artifactKey: Guid(755c5bc66e0a30943bead50cb21f617a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock016_2K_Normal.png using Guid(755c5bc66e0a30943bead50cb21f617a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d909fe8ecfd772112b2c0f6cadac2c6') in 0.0116914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock012_2K_Normal.png
+  artifactKey: Guid(73416d68f23597642b186dfdef9a6953) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock012_2K_Normal.png using Guid(73416d68f23597642b186dfdef9a6953) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f186cc2b004020748e2744ebe83235d8') in 0.0095876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock014_2K_Normal.png
+  artifactKey: Guid(34ce7d3b9007e8845be18ad0c7464e54) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock014_2K_Normal.png using Guid(34ce7d3b9007e8845be18ad0c7464e54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3716a89be9cdd20b597f7a869082482f') in 0.0098875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock031_2K_Normal.png
+  artifactKey: Guid(16d7bc718d299224f81fbac8aeeca7ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock031_2K_Normal.png using Guid(16d7bc718d299224f81fbac8aeeca7ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48b5ba47a321c86900faf2802b88b4f3') in 0.0103427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock035_2K_Displacement.png
+  artifactKey: Guid(25c8e123ef5f9af4ba9d2f6101cdf066) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock035_2K_Displacement.png using Guid(25c8e123ef5f9af4ba9d2f6101cdf066) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1ef8c753345510335f2b6f337121fe5') in 0.011641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock035_2K_AmbientOcclusion.png
+  artifactKey: Guid(03d993f92e63dd5429d4dd6ca5a5710e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock035_2K_AmbientOcclusion.png using Guid(03d993f92e63dd5429d4dd6ca5a5710e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f9e3411d53095bc80ccf968aed9015a') in 0.0090431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock014_2K_Roughness.png
+  artifactKey: Guid(610fdbfa9d42ed746be6d9713a94666b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock014_2K_Roughness.png using Guid(610fdbfa9d42ed746be6d9713a94666b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78e11a87b25966a623f14879a565cf39') in 0.008672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Objects/Asteroids/Rock4.prefab
+  artifactKey: Guid(1dd1298d7666a7b4cbfc6ff9eabfa34b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Rock4.prefab using Guid(1dd1298d7666a7b4cbfc6ff9eabfa34b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '425fa34e687a19a1a4614c9cf28e4458') in 0.0268392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 727
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock033_2K_Displacement.png
+  artifactKey: Guid(bf2122a3337044447be0e1b9ce683af5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock033_2K_Displacement.png using Guid(bf2122a3337044447be0e1b9ce683af5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '246279c6d386d3c6e117dc8f237df4f2') in 0.009088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Objects/Asteroids/Rock11.prefab
+  artifactKey: Guid(c1c49802b0c307244a07ae8fe358c258) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Rock11.prefab using Guid(c1c49802b0c307244a07ae8fe358c258) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b19e0039108cb9183f5e547a04ea559') in 0.0277562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 720
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Objects/Asteroids/Rock13.prefab
+  artifactKey: Guid(d9d186d2aece9f949acef2245830e4d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Rock13.prefab using Guid(d9d186d2aece9f949acef2245830e4d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a57869f18d53b4b90037ecdf034d8e02') in 0.0294934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 741
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Objects/Asteroids/Rock12.prefab
+  artifactKey: Guid(58c0d2e50cacf86408977fa0febf3013) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Rock12.prefab using Guid(58c0d2e50cacf86408977fa0febf3013) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c83612d9ed509eca4734e42ab34ab3b') in 0.0250837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 727
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock016_2K_Color.png
+  artifactKey: Guid(0a6fc3f5be211db4ab8c33d1dc17021f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock016_2K_Color.png using Guid(0a6fc3f5be211db4ab8c33d1dc17021f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a91f68f996ab2695b305fe0c5a0e72dd') in 0.0116727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock031_2K_Displacement.png
+  artifactKey: Guid(8cca6f180141237468a0b459b4766874) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock031_2K_Displacement.png using Guid(8cca6f180141237468a0b459b4766874) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afdfed12d13aaf6f710b813bf933e2d8') in 0.0096281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock031_2K_AmbientOcclusion.png
+  artifactKey: Guid(8f5936068e58f2c4dbcce58bd47c6279) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock031_2K_AmbientOcclusion.png using Guid(8f5936068e58f2c4dbcce58bd47c6279) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8090bd48974ff17b0cf130106fc957a') in 0.0109917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock014_2K_Displacement.png
+  artifactKey: Guid(54c7d1396a5cf344598f1f0ff1a5b45b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock014_2K_Displacement.png using Guid(54c7d1396a5cf344598f1f0ff1a5b45b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '914d322f90ebdfa3bc7c9f6c0e591c10') in 0.0098961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Objects/Asteroids/RockFracture2.prefab
+  artifactKey: Guid(926aa3293f0de024d8fd9ddd5a450273) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/RockFracture2.prefab using Guid(926aa3293f0de024d8fd9ddd5a450273) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66267dca48eff7db3c0ee71d948760cb') in 0.024218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 718
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock014_2K_Color.png
+  artifactKey: Guid(cbc0078cab60ea14a8567e16c3ca31c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock014_2K_Color.png using Guid(cbc0078cab60ea14a8567e16c3ca31c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c22a82d4ccd91b607f9faa4c4737805') in 0.0091215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1370.747398 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dfabe9441b9459228e289e7dade7fd4') in 0.4679633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 711
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.500123 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a1531e455b26d5c1b2e0b2843d73a56') in 0.0338932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.028347 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bb60200f96dd03d3025602e9af5427c') in 0.0390715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.969386 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd48e2feef565575a86ab25302e01151') in 0.0375783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.579080 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6545de3b62fa77dcd78546e8e78d88d2') in 0.0382699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.913681 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f01295de079071a84943275944c05421') in 0.0389714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.414720 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f6214a4aeb2a1ed19afd3035602c025') in 0.0384838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6014 unused Assets / (5.7 MB). Loaded Objects now: 8889.
+Memory consumption went from 226.2 MB to 220.5 MB.
+Total: 21.997700 ms (FindLiveObjects: 1.213800 ms CreateObjectMapping: 1.637100 ms MarkObjects: 13.629200 ms  DeleteObjects: 5.515200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.ai.assistant/Plugins/Markdig/Dependencies/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.934 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.795 seconds
+Domain Reload Profiling: 1728ms
+	BeginReloadAssembly (270ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (583ms)
+		LoadAssemblies (453ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (206ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (795ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (609ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (367ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6018 unused Assets / (5.6 MB). Loaded Objects now: 8779.
+Memory consumption went from 228.4 MB to 222.8 MB.
+Total: 10.102300 ms (FindLiveObjects: 0.702500 ms CreateObjectMapping: 0.936700 ms MarkObjects: 5.580300 ms  DeleteObjects: 2.881700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.ai.assistant/Plugins/Markdig/Dependencies/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.833 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.784 seconds
+Domain Reload Profiling: 1617ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (526ms)
+		LoadAssemblies (401ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (206ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (785ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (610ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6018 unused Assets / (5.5 MB). Loaded Objects now: 8781.
+Memory consumption went from 226.5 MB to 221.0 MB.
+Total: 12.007900 ms (FindLiveObjects: 0.719800 ms CreateObjectMapping: 0.921100 ms MarkObjects: 7.391400 ms  DeleteObjects: 2.974500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3092.413890 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33b698ff240318e46008999ac2026470') in 0.4673246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.577787 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cfda895d68b144b1b82f918dfe4d901') in 0.0391518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.424011 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42a6ba5d13fa2269ee56443c088a6a0f') in 0.0418422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.375491 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d850ed0e2122a3150441da6833d9611') in 0.0394138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.898837 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '751c7bfcdcde1c6897e942e4b00ef4c6') in 0.0436563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.032527 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd0e9947ca9e68168337056befd81528') in 0.0371907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.992348 seconds.
+  path: Assets/Prefabs/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroids/RockFracture3.prefab using Guid(32abcc4b09407014591c1095f5fba3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45bb0c0aafa04ad85909d9f5e929c9e5') in 0.0385138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.ai.assistant/Plugins/Markdig/Dependencies/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.863 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.724 seconds
+Domain Reload Profiling: 1585ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (539ms)
+		LoadAssemblies (397ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (222ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (724ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (564ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6019 unused Assets / (5.2 MB). Loaded Objects now: 8803.
+Memory consumption went from 226.7 MB to 221.5 MB.
+Total: 12.378100 ms (FindLiveObjects: 0.716000 ms CreateObjectMapping: 0.883100 ms MarkObjects: 8.098800 ms  DeleteObjects: 2.679200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.ai.assistant/Plugins/Markdig/Dependencies/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.824 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.725 seconds
+Domain Reload Profiling: 1549ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (531ms)
+		LoadAssemblies (392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (209ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (726ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (559ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6018 unused Assets / (5.3 MB). Loaded Objects now: 8805.
+Memory consumption went from 226.6 MB to 221.3 MB.
+Total: 10.441800 ms (FindLiveObjects: 0.914200 ms CreateObjectMapping: 1.052100 ms MarkObjects: 5.568700 ms  DeleteObjects: 2.906100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 159.252516 seconds.
+  path: Assets/Objects/Asteroids/Textures/Rock14.mat
+  artifactKey: Guid(08ccb3cdd65876c43a94da0419a284e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Objects/Asteroids/Textures/Rock14.mat using Guid(08ccb3cdd65876c43a94da0419a284e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0311e1516a4cf35024574ba571f66f00') in 0.2299886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+

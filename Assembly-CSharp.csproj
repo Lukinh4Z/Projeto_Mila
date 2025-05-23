@@ -9,8 +9,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{F960760E-5E06-1F1B-9041-EF991679FF0A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -65,24 +64,28 @@
     <Compile Include="Assets\Scripts\Player\ShipItemSlot.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
     <Compile Include="Assets\Scripts\Input\UserInput.cs" />
+    <Compile Include="Assets\Scripts\Systems\Items\CharItem.cs" />
     <Compile Include="Assets\Scripts\Systems\Items\Item.cs" />
     <Compile Include="Assets\Scripts\Managers\WaveSpawner.cs" />
     <Compile Include="Assets\Scripts\Input\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
-    <Compile Include="Assets\Scripts\Systems\Combat\Damageable.cs" />
+    <Compile Include="Assets\Scripts\Systems\Combat\DamageableMisc.cs" />
     <Compile Include="Assets\Scripts\Systems\Inventory\PlayerItems.cs" />
     <Compile Include="Assets\Scripts\Systems\Combat\Bullet.cs" />
     <Compile Include="Assets\Scripts\Managers\HomeMenuManager.cs" />
     <Compile Include="Assets\Scripts\Managers\WinScreen.cs" />
     <Compile Include="Assets\Scripts\UI\GlobalConverters.cs" />
     <Compile Include="Assets\Scripts\UI\HeatController.cs" />
+    <Compile Include="Assets\Scripts\Systems\Combat\Fracture.cs" />
+    <Compile Include="Assets\Scripts\Systems\Inventory\Inventory.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\SoundEffectSO.cs" />
     <Compile Include="Assets\Scripts\Managers\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Systems\Combat\Hull.cs" />
-    <Compile Include="Assets\BreakableAsteroids\Scripts\Fracture.cs" />
     <Compile Include="Assets\Scripts\Enemies\Asteroid.cs" />
+    <Compile Include="Assets\Scripts\Systems\Combat\DamageableShip.cs" />
     <Compile Include="Assets\GalaxyBox2\Scripts\examplescene.cs" />
+    <Compile Include="Assets\Scripts\Systems\Items\ShipItem.cs" />
     <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\Managers\TimeManager.cs" />
     <Compile Include="Assets\Scripts\Managers\SelectButton.cs" />
@@ -92,7 +95,6 @@
     <Compile Include="Assets\Scripts\UI\Heat.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyWeapon.cs" />
     <Compile Include="Assets\Scripts\Player\playerWeapon.cs" />
-    <Compile Include="Assets\BreakableAsteroids\Scripts\ExampleFracture.cs" />
     <Compile Include="Assets\Scripts\Systems\Combat\Shield.cs" />
     <Compile Include="Assets\Scripts\Systems\Player\Character.cs" />
     <Compile Include="Assets\Scripts\Systems\Player\Ship.cs" />
@@ -103,7 +105,6 @@
     <None Include="Assets\Scripts\UI\ui.uss" />
     <None Include="Assets\Scripts\UI\Main.uxml" />
     <None Include="Assets\GalaxyBox2\instructions.txt" />
-    <None Include="Assets\BreakableAsteroids\Readme.txt" />
     <None Include="Assets\Hovl Studio\Procedural fire\Shaders\FireSphere.shader" />
     <None Include="Assets\Hovl Studio\Procedural fire\Demo scene\Readme.txt" />
   </ItemGroup>
@@ -590,10 +591,6 @@
     </Reference>
     <Reference Include="System.IO.Hashing">
       <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
@@ -1112,10 +1109,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Splines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Splines.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1148,10 +1141,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1162,10 +1151,6 @@
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
@@ -1204,16 +1189,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
@@ -1234,10 +1211,6 @@
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics">
@@ -1268,10 +1241,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Assistant.Agent.Dynamic.Extension.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1286,10 +1255,6 @@
     </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
@@ -1334,7 +1299,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\Scripts\Helpers\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

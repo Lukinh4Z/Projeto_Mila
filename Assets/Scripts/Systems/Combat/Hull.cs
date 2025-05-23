@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Systems.Combat
 {
-    internal class Hull : Damageable
+    internal class Hull : DamageableMisc
     {
         //public Ship ship;
         //public float repairRate;

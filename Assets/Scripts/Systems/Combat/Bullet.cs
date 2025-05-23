@@ -1,3 +1,4 @@
+using Assets.Scripts.Interfaces;
 using System;
 using UnityEngine;
 
@@ -6,11 +7,10 @@ namespace Systems.Combat
     public class Bullet : MonoBehaviour
     {
         public float speed;
-
         public float bulletDMG; 
-
         public Boolean isEnemy;
         public float shouldDie = 150f;
+        public DamageType damageType;
 
         private Rigidbody rb;
 
@@ -35,7 +35,7 @@ namespace Systems.Combat
         {
             Debug.Log("COLLISION: " + collision);
 
-            Damageable damageable = collision.gameObject.GetComponent<Damageable>();
+            IDamageable damageable = collision.gameObject.GetComponent<IDamageable>();
 
             dealDamage(damageable);
         }
@@ -44,21 +44,33 @@ namespace Systems.Combat
         {
             Debug.Log("TRIGGER: " + collider);
 
-            Damageable damageable = collider.gameObject.GetComponent<Damageable>();
+            IDamageable damageable = collider.gameObject.GetComponent<IDamageable>();
 
             dealDamage(damageable);
         }
 
-        public void SetModifiers(float modifier)
+        public void SetModifiers(float energyMod = 0, float physicalMod = 0)
         {
-            bulletDMG = (1 + (modifier / 100f)) * bulletDMG;
+            switch (damageType)
+            {
+                case DamageType.Energy:
+                    bulletDMG = (1 + (energyMod / 100f)) * bulletDMG;
+                    break;
+
+                case DamageType.Physical:
+                    bulletDMG = (1 + (physicalMod / 100f)) * bulletDMG;
+                    break;
+
+                default:
+                    break;
+            }
         }
 
-        private void dealDamage(Damageable damageable)
+        private void dealDamage(IDamageable damageable)
         {
             if (damageable != null)
             {
-                damageable.Damage(bulletDMG);
+                damageable.Damage(bulletDMG, damageType);
 
                 GameObject particles = Instantiate(particlesPrefab, rb.position, rb.rotation);
 

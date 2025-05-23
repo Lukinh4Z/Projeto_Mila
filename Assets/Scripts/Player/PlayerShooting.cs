@@ -1,30 +1,17 @@
 using ScriptableObjects;
 using System.Collections.Generic;
-using System.Linq;
 using Systems.Combat;
+using Systems.Player;
 using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
 {
-    public enum Modifiers
-    {
-        BulletDMG,
-        Cooldown,
-        Heat
-    }
-    [System.Serializable]
-    public class ShootingModifiers
-    {
-        public Modifiers mod;
-        public float value;
-    }
-    public ShootingModifiers[] modifiers;
-
     [SerializeField] List<Transform> shootingPoints;
     public GameObject bulletPrefab;
     private PlayerControls playerControls;
     private bool shooting;
     public SoundEffectSO bulletSound;
+    Ship ship;
 
     public float timeBtwShots = 1.0f;
     public float shotTimeCounter = 0f;
@@ -38,9 +25,7 @@ public class PlayerShooting : MonoBehaviour
     {
         playerControls = new PlayerControls();
         shotTimeCounter = timeBtwShots;
-
-        //heatScaleX = heatUI.transform.localScale.x;
-        //heatScaleY = heatUI.transform.localScale.y;
+        ship = GetComponent<Ship>();
     }
 
 
@@ -66,20 +51,18 @@ public class PlayerShooting : MonoBehaviour
         {
             WeaponCooldown();
         }
-
-        //heatRectUI();
-
     }
 
     private void WeaponCooldown()
     {
-        ShootingModifiers cooldownModifier = modifiers.FirstOrDefault(m => m.mod == Modifiers.Cooldown);
+        //ShootingModifiers cooldownModifier = modifiers.FirstOrDefault(m => m.mod == Modifiers.Cooldown);
+        float cooldownModifier = 0;
 
         if (isHot) { 
-            weaponHeat -= Time.deltaTime * (cooldownFactor * (1 + (cooldownModifier.value/100f))) * 1.5f;
+            weaponHeat -= Time.deltaTime * (cooldownFactor * (1 + (cooldownModifier/100f))) * 1.5f;
         } else
         {
-            weaponHeat -= Time.deltaTime * (cooldownFactor * (1 + (cooldownModifier.value / 100f))) * 3;
+            weaponHeat -= Time.deltaTime * (cooldownFactor * (1 + (cooldownModifier/ 100f))) * 3;
         }
 
         if (weaponHeat <= 0.0f)
@@ -97,20 +80,15 @@ public class PlayerShooting : MonoBehaviour
             Rigidbody rb = bulletObject.GetComponent<Rigidbody>();
             Bullet bullet = bulletObject.GetComponent<Bullet>();
 
-            ShootingModifiers bulletDmgModifier = modifiers.FirstOrDefault(m => m.mod == Modifiers.BulletDMG);
-            bullet.SetModifiers(bulletDmgModifier.value);
+            float energyPower = ship.GetStat(ShipStatistic.EnergyPower).statValue;
+            float physicalMod = ship.GetStat(ShipStatistic.PhysicalPower).statValue;
+
+            bullet.SetModifiers(energyPower, physicalMod);
 
             rb.linearVelocity = bulletObject.GetComponent<Bullet>().speed * transform.forward;
 
         });
 
-        //SoundManager.PlaySound(SoundType.SHOT);
         bulletSound.Play();
     }
-
-    //public void heatRectUI()
-    //{
-
-    //    heatUI.transform.localScale = new Vector3(heatScaleX, (heatScaleY * weaponHeat) / 100);
-    //}
 }
