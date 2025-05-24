@@ -1,19 +1,21 @@
 using ScriptableObjects;
 using Systems.Player;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody rb;
-    Ship ship;
+    [SerializeField] Ship ship;
 
     private Vector3 movement;
     private Vector3 aim;
     private Vector3 velocity;
     Vector3 mousePos;
     public Camera cam;
-    
+    [SerializeField] Animator animator;
+
     private bool isGamepad = true;
 
     public float controllerDeadZone = 0f;
@@ -23,14 +25,19 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody>();
         engineStart.Play();
 
-        ship = GetComponent<Ship>();
+        if(ship == null) ship = GetComponent<Ship>();
+
         if ( ship == null )
         {
             throw new System.Exception("Sem nave!");
+        } else
+        {
+            rb = ship.gameObject.GetComponent<Rigidbody>();
         }
+
+        if(animator == null) animator = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -56,7 +63,33 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 move = new Vector3(moveX, 0, moveY);
         //rb.linearVelocity = move * (speed * (1 + speedModifier/100f));
+
+        Debug.Log("X: " + moveX + ", Y: " + moveY);
+        HandleAnimation(moveX);
+
         rb.linearVelocity = move * speed;
+    }
+
+    private void HandleAnimation(float moveX)
+    {
+        if (moveX > 0)
+        {
+            Debug.Log("Virando pra Direita");
+            animator.SetBool("moveRight", true);
+            animator.SetBool("moveLeft", false);
+        }
+        else if (moveX < 0)
+        {
+            Debug.Log("Virando pra Esquerda");
+            animator.SetBool("moveRight", false);
+            animator.SetBool("moveLeft", true);
+        }
+        else
+        {
+            Debug.Log("Parado");
+            animator.SetBool("moveRight", false);
+            animator.SetBool("moveLeft", false);
+        }
     }
 
     void HandleRotation()

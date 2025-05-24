@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto_mila\\assets\\scripts\\ui\\ui.uss||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui.uss||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto_mila\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\projeto_mila\\assets\\scripts\\systems\\combat\\fracture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\assets\\scripts\\systems\\combat\\fracture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\combat\\fracture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\assets\\scripts\\systems\\combat\\damageablemisc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\combat\\damageablemisc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\assets\\scripts\\ui\\ui.uss||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui.uss||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\assets\\scripts\\systems\\combat\\damageableship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\assets\\scripts\\systems\\items\\shipitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F960760E-5E06-1F1B-9041-EF991679FF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\items\\shipitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -58,20 +58,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ui.uss",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\UI\\ui.uss",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ui.uss",
               "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\UI\\ui.uss",
               "RelativeToolTip": "Assets\\Scripts\\UI\\ui.uss",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-23T20:14:54.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T20:14:54.615Z"
             },
             {
               "$type": "Document",
@@ -81,10 +80,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Combat\\Fracture.cs",
               "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Combat\\Fracture.cs",
               "RelativeToolTip": "Assets\\Scripts\\Systems\\Combat\\Fracture.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T19:59:49.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T19:59:49.382Z"
             },
             {
               "$type": "Document",
@@ -94,13 +92,13 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Combat\\DamageableMisc.cs",
               "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Combat\\DamageableMisc.cs",
               "RelativeToolTip": "Assets\\Scripts\\Systems\\Combat\\DamageableMisc.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAADwvyoAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T18:59:46.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Bullet.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Combat\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Combat\\Bullet.cs",
@@ -112,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IDamageable.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Interfaces\\IDamageable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IDamageable.cs",
@@ -124,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DamageableShip.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Combat\\DamageableShip.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Combat\\DamageableShip.cs",
@@ -136,19 +134,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
               "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAADwvzMAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T14:14:21.252Z"
+              "WhenOpened": "2025-05-23T14:14:21.252Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Ship.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Player\\Ship.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Player\\Ship.cs",
@@ -160,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Inventory.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Inventory\\Inventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Inventory\\Inventory.cs",
@@ -196,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Item.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\Projeto_Mila\\Assets\\Scripts\\Systems\\Items\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\Items\\Item.cs",
